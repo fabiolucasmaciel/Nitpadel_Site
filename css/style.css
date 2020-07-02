@@ -103,10 +103,26 @@ body{
     height: 300px;
 }
 .img-galeria{
-    width: 250px;
-    height: 250px;
-    margin-top: 7%;
+    width: 200px;
+    height: 200px;
+    margin-top: 15%;
+    display: inline-block;
+    position: relative;
 }
-.box-txt-img{
-    
+.h4-img{
+    color: white;
+    margin-left: -50px;
+    margin-top: 25px;
+    margin-bottom: -40px;
+}
+.hr-img{
+    background-color: white;
+    margin-left: -50px;
+    margin-top: 45px;
+    margin-bottom: -35px;
+}
+.p-img{
+    color: white;
+    margin-left: -50px;
+    margin-top: 40px;
 }
