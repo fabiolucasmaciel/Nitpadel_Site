@@ -17,7 +17,7 @@
     height: 100%;
     width: 60%;
     padding: 20px;
-    padding-top: 6%;
+    padding-top: 10%;
     text-align: center;
     color: white;
 }
@@ -39,15 +39,24 @@
       padding-right: 50px;
       width: 200px;
 }
+/* banner area- saiba mais respnsivo*/
 @media (max-width: 991.98px) { 
     #saiba_mais{
         padding-top: 0px;
         width: 100%;
-        margin-top: 5%;
+        margin-top: 6%;
     }
 }
+@media (max-width: 575.98px) { 
+    #saiba_mais h1{
+        font-size: 30px;
+  }
+  #saiba_mais p{
+    font-size: 12px;
+}
+ }
 
-/* banner area-aula teste*/
+/* banner area-curiosidade*/
 #curios{
     position: absolute;
     top: 0px;
@@ -57,7 +66,7 @@
     text-align:  center;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    padding-top: 6%;
+    padding-top: 10%;
 }
 #curios h1{
     margin-bottom: 15px;
@@ -82,6 +91,14 @@
         display: none;
     }
 }
+@media (max-width: 575.98px) { 
+    #btn-banner{
+        margin-top: -10px;
+        width: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+ }
 
 /*Inicio Galeria*/
 #galeria{
@@ -98,11 +115,13 @@
 #btn-gal{
     background-color: #f06244;
     border: none;
-    color: white;;
+    color: white;
+    position: relative;
     width: 200px;
     margin-top: 30px;
     border-radius: 20px;
-    margin-left: 40%;
+    left: 50%;
+    margin-left: -100px;
     padding: 7px;
 }
 
