@@ -1,3 +1,36 @@
+#logo-img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.menu-item{
+    color: white;
+    background-color: #f06244;
+    padding: 1.3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+}
+.menu-item:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #863524;
+    padding: 1.3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#link-sobre-txt{
+    color: white;
+}
+#link-sobre-txt:hover{
+    color: white;
+}
+#link-leia-mais{
+    color: #f06244;
+}
+#link-leia-maisa:hover{
+    color: #f06244;
+}
 /* banner area open*/
 #banner{
     margin-bottom: -16px;
@@ -149,7 +182,10 @@
     margin-top: 0px;
     background-color: #1b1b1b;
     width: 100%;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
 }
 .img-galeria{
     width: 200px;
@@ -172,8 +208,6 @@
     width: 200px;
     margin-top: 30px;
     border-radius: 20px;
-    left: 50%;
-    margin-left: -100px;
     padding: 7px;
 }
 

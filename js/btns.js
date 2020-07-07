@@ -1,8 +1,10 @@
 var btnBanner = document.querySelector('input#btn-banner')
 var btnCurios = document.querySelector('input#btn-curios')
 var btnGal = document.querySelector('input#btn-gal')
-var btnAzulAula = document.querySelector('input.btn-azul')
-var btnLaranTorn = document.querySelector('input.btn-laranja')
+var btnAzulAula = document.querySelector('input#btn-azul-aula')
+var btnLaranTorn = document.querySelector('input#btn-laranja-torn')
+var btnLaranCont = document.querySelector('input#btn-laranja-cont')
+var btnLaranCCN = document.querySelector('input#btn-laranja-CCN')
 
 /*Botão do banner grande*/
 btnBanner.addEventListener('mouseenter',function(){
@@ -44,6 +46,16 @@ btnAzulAula.addEventListener('mouseout',function(){
 btnAzulAula.addEventListener('click',function(){
     btnAzulAula.style.backgroundColor = '#080f1a'
 })
+/*Botão laranja, contato*/
+btnLaranCont.addEventListener('mouseenter',function(){
+    btnLaranCont.style.backgroundColor = '#863524'
+})
+btnLaranCont.addEventListener('mouseout',function(){
+    btnLaranCont.style.backgroundColor = '#f06244'
+})
+btnLaranCont.addEventListener('click',function(){
+    btnLaranCont.style.backgroundColor = '#42180f'
+})
 /*Botão da geleria*/
 btnGal.addEventListener('mouseenter',function(){
     btnGal.style.backgroundColor = '#863524'
@@ -53,4 +65,14 @@ btnGal.addEventListener('mouseout',function(){
 })
 btnGal.addEventListener('click',function(){
     btnGal.style.backgroundColor = '#42180f'
+})
+/*Botão laranja, ccn*/
+btnLaranCCN.addEventListener('mouseenter',function(){
+    btnLaranCCN.style.backgroundColor = '#863524'
+})
+btnLaranCCN.addEventListener('mouseout',function(){
+    btnLaranCCN.style.backgroundColor = '#f06244'
+})
+btnLaranCCN.addEventListener('click',function(){
+    btnLaranCCN.style.backgroundColor = '#42180f'
 })
