@@ -17,7 +17,7 @@
     height: 100%;
     width: 60%;
     padding: 20px;
-    padding-top: 10%;
+    padding-top: 11%;
     text-align: center;
     color: white;
 }
@@ -66,7 +66,7 @@
     text-align:  center;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    padding-top: 10%;
+    padding-top: 11%;
 }
 #curios h1{
     margin-bottom: 15px;
@@ -112,6 +112,14 @@
     height: 200px;
     margin-top: 15%;
 }
+@media (max-width: 575.98px) { 
+    .img-galeria{
+        margin-top: 8px;
+    }
+    #galeria{
+        padding-top: 25px;
+    }
+ }
 #btn-gal{
     background-color: #f06244;
     border: none;
@@ -124,19 +132,46 @@
     margin-left: -100px;
     padding: 7px;
 }
-
 /*area de duas cores()*/
+#area-2cores{
+    color: white;
+}
+#area-2cores h1{
+    margin-top: 8%;
+}
+#area-2cores hr{
+    background-color: white;
+}
 #area-azul{
     background-color: #16294a;
-    width: 50%;
     left: 0px;
     height: 350px;
     margin-top: 0px;
 }
 #area-laranja{
     background-color: #f06244;
-    width: 50%;
-    left: 50%;
     height: 350px;
     margin: 0px;
+}
+.btn-azul{
+    border: none;
+    border-radius: 25px;
+    background-color: #16294a;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 150px;
+}
+.btn-laranja{
+    border: none;
+    border-radius: 25px;
+    background-color: #f06244;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 150px;
 }
