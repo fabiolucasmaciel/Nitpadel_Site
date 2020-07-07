@@ -100,39 +100,7 @@
     }
  }
 
-/*Inicio Galeria*/
-#galeria{
-    margin-top: 0px;
-    background-color: #1b1b1b;
-    width: 100%;
-    padding-bottom: 30px;
-}
-.img-galeria{
-    width: 200px;
-    height: 200px;
-    margin-top: 15%;
-}
-@media (max-width: 575.98px) { 
-    .img-galeria{
-        margin-top: 8px;
-    }
-    #galeria{
-        padding-top: 25px;
-    }
- }
-#btn-gal{
-    background-color: #f06244;
-    border: none;
-    color: white;
-    position: relative;
-    width: 200px;
-    margin-top: 30px;
-    border-radius: 20px;
-    left: 50%;
-    margin-left: -100px;
-    padding: 7px;
-}
-/*area de duas cores()*/
+/*area de duas cores*/
 #area-2cores{
     color: white;
 }
@@ -174,4 +142,82 @@
     padding-right: 10px;
     padding-left: 10px;
     width: 150px;
+}
+
+/*Inicio Galeria*/
+#galeria{
+    margin-top: 0px;
+    background-color: #1b1b1b;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.img-galeria{
+    width: 200px;
+    height: 200px;
+    margin-top: 15%;
+}
+@media (max-width: 575.98px) { 
+    .img-galeria{
+        margin-top: 8px;
+    }
+    #galeria{
+        padding-top: 25px;
+    }
+ }
+#btn-gal{
+    background-color: #f06244;
+    border: none;
+    color: white;
+    position: relative;
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 20px;
+    left: 50%;
+    margin-left: -100px;
+    padding: 7px;
+}
+
+/*area de contato*/
+#contato-paralax{
+    height: 300px;
+    background-image: url(../img/padel-ban70.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+}
+
+/*area do clube*/
+#clube-paralax{
+    height: 300px;
+    background-image: url(../img/padel-ban70.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+}
+@media (max-width: 575.98px) { 
+    #clube-paralax{
+        padding-top: 80px;
+    }
+ }
+
+footer{
+    height: 150px;
+    background-color: #16294a;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+footer a{
+    color: #f06244;
+}
+footer a:hover{
+    color: #f06244;
 }
