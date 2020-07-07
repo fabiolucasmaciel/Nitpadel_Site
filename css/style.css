@@ -214,7 +214,7 @@
 /*area de contato*/
 #contato-paralax{
     height: 300px;
-    background-image: url(../img/padel-ban70.jpg);
+    background-image: url(../img/padel-paralax2-70.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,7 +227,7 @@
 /*area do clube*/
 #clube-paralax{
     height: 300px;
-    background-image: url(../img/padel-ban70.jpg);
+    background-image: url(../img/padel-paralax.1_optimized.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,15 +243,23 @@
  }
 /*footer*/
 footer{
-    height: 150px;
+    height: 250px;
     background-color: #16294a;
     color: white;
-    text-align: center;
-    padding-top: 30px;
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 footer a{
+    padding-top: 50px;
     color: #f06244;
 }
 footer a:hover{
     color: #f06244;
+}
+iframe{
+    position: relative;
+    float: right;
+    margin-top: -180px;
 }
