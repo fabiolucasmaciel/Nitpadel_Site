@@ -8,10 +8,10 @@ var btnLaranCCN = document.querySelector('input#btn-laranja-CCN')
 
 /*Botão do banner grande*/
 btnBanner.addEventListener('mouseenter',function(){
-    btnBanner.style.backgroundColor = 'rgba(0, 0, 0, 0.4)'
+    btnBanner.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'
 })
 btnBanner.addEventListener('mouseout',function(){
-    btnBanner.style.backgroundColor = 'rgba(0, 0, 0, 0)'
+    btnBanner.style.backgroundColor = 'rgba(0, 0, 0, 0.6)'
 })
 btnBanner.addEventListener('click',function(){
     btnBanner.style.backgroundColor = '#1b1b1b'

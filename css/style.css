@@ -3,66 +3,84 @@
     width: 30px;
     margin-right: 10px;
 }
-.menu-item{
+.navbar {
+    background-color: #ffffff00;
+    z-index: 1;
+}
+@media (min-width: 991.98px) { 
+    .navbar-toggler{
+        display: none;
+    }
+}
+.link-nav{
+    color: #000000;
+}
+.link-nav:hover{
+    color: #000000;
+}
+@media (max-width: 991.98px) { 
+    .link-nav{
+        display: none;
+    }
+}
+#navbarHeader{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.link-colap{
     color: white;
     background-color: #f06244;
-    padding: 1.3px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 5px;
 }
-.menu-item:hover{
+.link-colap:hover{
     color: white;
     text-decoration: none;
     background-color: #863524;
-    padding: 1.3px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-#link-sobre-txt{
-    color: white;
-}
-#link-sobre-txt:hover{
-    color: white;
-}
-#link-leia-mais{
-    color: #f06244;
-}
-#link-leia-maisa:hover{
-    color: #f06244;
 }
 /* banner area open*/
 #banner{
+    margin-top: -57px;
     margin-bottom: -16px;
 }
 #banner-img{
     width: 100%;
+    height: 100%;
 }
 #container {
     display: inline-block;
     position: relative;
 }
 /* banner area- saiba mais*/
-#saiba_mais {
+#info-carouse {
     position: absolute;
     top: 0px;
     left: 0px;
     height: 100%;
-    width: 60%;
+    width: 50%;
     padding: 20px;
-    padding-top: 11%;
+    padding-top: 140px;
     text-align: center;
+}
+#info-carouse h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+    padding: 8px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+#info-carouse h4{
+    font-size: 22px;
     color: white;
-}
-#saiba_mais h1{
-      font-size: 60px;
-}
-#saiba_mais p{
-      font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    padding-bottom: 15px;
 }
 #btn-banner{
       margin-top: 10px;
-      background-color: rgba(0, 0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.6);
       color: white;
       border-width: 1px;
       border-color: white;
@@ -74,42 +92,60 @@
 }
 /* banner area- saiba mais respnsivo*/
 @media (max-width: 991.98px) { 
-    #saiba_mais{
+    #info-carouse{
         padding-top: 0px;
         width: 100%;
-        margin-top: 6%;
+        margin-top: 15%;
     }
 }
-@media (max-width: 575.98px) { 
-    #saiba_mais h1{
+@media (max-width: 700px) { 
+    #info-carouse{
+        margin-top: 11%;
+    }
+    #info-carouse h1{
         font-size: 30px;
   }
-  #saiba_mais p{
-    font-size: 12px;
+  #info-carouse h4{
+    font-size: 22px;
 }
  }
+@media (max-width: 575.98px) { 
+    #info-carouse{
+        margin-top: 15%;
+    }
+    #info-carouse h1{
+        font-size: 19px;
+  }
+  #info-carouse h4{
+    font-size: 14px;
+}
+#btn-banner{
+    display: none;
+}
+}
 
-/* banner area-curiosidade*/
-#curios{
+/* banner area-sobre nos*/
+#sobre{
     position: absolute;
     top: 0px;
     right: 0px;
     height: 100%;
-    width: 40%;
+    width: 50%;
     text-align:  center;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 40px;
     padding-top: 11%;
 }
-#curios h1{
+#sobre h1{
     margin-bottom: 15px;
 }
-#curios hr{
+#sobre hr{
     background-color: white;
     margin-left: 50px;
     margin-right: 50px;
 }
-#btn-curios{
+#btn-sobre{
     background-color: #f06244;
     border: none;
     color: white;
@@ -120,16 +156,40 @@
     width: 200px;
 }
 @media (max-width: 991.98px) { 
-    #curios{
+    #sobre{
         display: none;
     }
 }
 @media (max-width: 575.98px) { 
-    #btn-banner{
+    #btn-sobre{
         margin-top: -10px;
         width: 100px;
         padding-left: 0px;
         padding-right: 0px;
+    }
+ }
+/*area de duas cores mobile*/
+#area-2cores-mobile{
+    color: white;
+    text-align: center;
+}
+#area-2cores-mobile h1{
+    margin-top: 8%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+#area-2cores-mobile hr{
+    background-color: white;
+    width: 400px;
+}
+#area-2cores-mobile p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media (min-width: 575.98px) { 
+    #area-2cores-mobile{
+        display: none;
     }
  }
 
@@ -137,6 +197,11 @@
 #area-2cores{
     color: white;
 }
+@media (max-width: 575.98px) { 
+    #area-2cores{
+        display: none;
+    }
+ }
 #area-2cores h1{
     margin-top: 8%;
 }
@@ -149,21 +214,10 @@
     height: 350px;
     margin-top: 0px;
 }
-#area-laranja{
-    background-color: #f06244;
+#area-cinza{
+    background-color: #1b1b1b;
     height: 350px;
     margin: 0px;
-}
-.btn-azul{
-    border: none;
-    border-radius: 25px;
-    background-color: #16294a;
-    color: white;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 10px;
-    padding-left: 10px;
-    width: 150px;
 }
 .btn-laranja{
     border: none;
@@ -183,7 +237,7 @@
     background-color: #1b1b1b;
     width: 100%;
     padding-top: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     text-align: center;
     color: white;
 }
@@ -214,7 +268,7 @@
 /*area de contato*/
 #contato-paralax{
     height: 300px;
-    background-image: url(../img/padel-paralax2-70.jpg);
+    background-image: url(../img/padel-ban70.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,7 +281,7 @@
 /*area do clube*/
 #clube-paralax{
     height: 300px;
-    background-image: url(../img/padel-paralax.1_optimized.jpg);
+    background-image: url(../img/padel-paralax2-70.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,3 +317,19 @@ iframe{
     float: right;
     margin-top: -180px;
 }
+@media (max-width: 850px) { 
+    footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+ }
+ @media (max-width: 760px) { 
+    iframe{
+        display: none;
+    }
+    footer{
+        text-align: center;
+        padding-top: 40px;
+        height: 190px;
+    }
+ }
