@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="shortcut icon" href="img/nitpadel_favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/nitpadel_favicon_corte_pret.png" type="image/x-icon">
     <title>Nitpadel</title>
 </head>
 <body>
@@ -31,15 +31,16 @@
         </div><!-- navbar header collapse -->
         <div class="navbar navbar-light">
                   <div class="container d-flex justify-content-between">
-                    <a href="#" class="navbar-brand d-flex align-items-center">
-                      <img src="img/nitpadel_favicon.jpg" alt="logo" id="logo-img">
-                      <strong>Nitpadel</strong>
+                    <a href="https://fabiolucasmaciel.github.io/Nitpadel_Site/" class="navbar-brand d-flex align-items-center">
+                      <img src="img/nitpadel_favicon_corte_pret.png" alt="logo" id="logo-img">
+                      <strong class="nome-logo">Nitpadel</strong>
                     </a>
                     <a href="sobre.html" class="link-nav">Sobre</a>
                     <a href="contato.html" class="link-nav">Contato</a>
+                    <a href="galeria.html" class="link-nav">Galeria</a>
                     <a href="aula-teste.html" class="link-nav">Aula teste</a>
                     <a href="torneio.html" class="link-nav">Torneio</a>
-                    <a href="https://www.countyclubniteroi.com.br" class="link-nav">Country Club</a>
+                    <a href="https://www.countryclubniteroi.com.br/" class="link-nav">Country Club</a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgba(255, 255, 255, 0.5);">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -48,28 +49,34 @@
     </header>
     <section id="banner">
       <figure id="container">
-        <img src="img/person-banner-tiny.jpg" id="banner-img"/>
+        <img src="img/person-banner-tiny-55.jpg" id="banner-img"/>
         <figcaption id="info-carouse">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators" id="indica-info">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                       <h1>Bem vindo ao padel<hr></h1>
                       <h4>
-                        Conheça mais sobre esse esporte jogado em dupla,<br>
+                        Conheça mais sobre esse esporte jogado em dupla,
                         uma mistura de tênis e squash,jogado em uma quadra de vidro fechada.
                       </h4>
                   </div>
                   <div class="carousel-item">
-                      <h1>Campeonato no Brasil <hr></h1>
+                      <h1>Mundial no Brasil <hr></h1>
                       <h4>
-                        O ultimo World Padel Tour ocorreu em São Paulo,<br>
-                        O primeiro grande evento de padel no Brasil.
+                        O ultimo World Padel Tour ocorreu na cidade de São Paulo,
+                        O primeiro grande evento mundial de padel no Brasil.
                       </h4>
                   </div>
                   <div class="carousel-item">
                       <h1>O esporte na Europa<hr></h1>
                       <h4>
-                        A ultima pesquisa relacionada na Europa revelou que<br>
+                        A ultima pesquisa relacionada na Europa revelou que
                         o Padel tem o maior numero de novos adeptos nesse ultimo ano.
                       </h4>
                   </div>
@@ -85,7 +92,7 @@
       </figure>
     </section>
     <section id="galeria">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <h1>Nossa galeria</h1>
               <div class="carousel-item active">
@@ -124,6 +131,14 @@
                       </div>
                     </div>
               </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon esq-gal" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon dir-gal" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
             </div>
           </div>
           <a href="galeria.html"><input type="button" value="Veja a galeria" id="btn-gal"></a>
@@ -133,7 +148,7 @@
       <a href="contato.html"><input type="button" value="Ver mais" class="btn-laranja" id="btn-laranja-cont"></a>
     </section>
     <section id="area-2cores-mobile">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" id="area-azul">
                   <h1>Faça uma aula teste</h1>
@@ -186,7 +201,7 @@
     </section>
     <section id="clube-paralax">
       <h1>Conheça o Country Club de Niterói</h1>
-      <a href="https://www.countyclubniteroi.com.br"><input type="button" value="Ver mais" class="btn-laranja" id="btn-laranja-CCN"></a>
+      <a href="https://www.countryclubniteroi.com.br/"><input type="button" value="Ver mais" class="btn-laranja" id="btn-laranja-CCN"></a>
     </section>
     <footer>
       <a>Rua Chile,153 - Pendotiba,Niterói - RJ,24322-000</a>
