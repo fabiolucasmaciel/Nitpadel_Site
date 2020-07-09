@@ -71,6 +71,11 @@
     padding-bottom: 5px;
     margin-bottom: 0px;
 }
+#info-carouse hr{
+    background-color: white;
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
 #info-carouse h4{
     font-size: 22px;
     color: white;
@@ -252,6 +257,9 @@
     }
     #galeria{
         padding-top: 25px;
+    }
+    .hide-img{
+        display: none;
     }
  }
 #btn-gal{
