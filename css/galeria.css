@@ -1,0 +1,33 @@
+body{
+    background-color: #1b1b1b;
+}
+#titul-galeria{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.img-galeria{
+    height: 250px;
+    width: 250px;
+}
+@media (max-width: 1100px) { 
+    .img-galeria{
+        height: 200px;
+        width: 200px;
+    }
+}
+@media (max-width: 900px) { 
+    .img-galeria{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media (max-width: 576px) { 
+    .img-galeria{
+        height: 230px;
+        width: 230px;
+    }
+}
+#galeria-estatica{
+    padding-bottom: 40px;
+}

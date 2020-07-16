@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 #logo-img{
     height: 80px;
     width: 80px;
@@ -13,6 +14,7 @@
 .nome-logo{
     font-size: 45px;
     color: #1b1b1b;
+    font-family: 'Fjalla One', sans-serif;
 }
 @media (max-width: 799.98px) { 
     .nome-logo{
@@ -20,8 +22,9 @@
     }
 }
 .navbar {
-    background-color: #ffffff00;
+    background-color: white;
     z-index: 1;
+    top: -2px;
 }
 @media (min-width: 991.98px) { 
     .navbar-toggler{
@@ -50,7 +53,12 @@
     color: white;
     background-color: #f06244;
     padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
     border-radius: 5px;
+}
+.margin-collapse{
+    margin-bottom: 14px;
 }
 .link-colap:hover{
     color: white;
@@ -59,7 +67,7 @@
 }
 /* banner area open*/
 #banner{
-    margin-top: -106px;
+    margin-top: -40px;
     margin-bottom: -16px;
 }
 @media (max-width: 730px) { 
