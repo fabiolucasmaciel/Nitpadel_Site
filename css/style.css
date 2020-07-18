@@ -84,6 +84,11 @@
     display: inline-block;
     position: relative;
 }
+#linha-banner{
+    background-color: #1b1b1b;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 /* banner area- saiba mais*/
 #info-carouse {
     position: absolute;
