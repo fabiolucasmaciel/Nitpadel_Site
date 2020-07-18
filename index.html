@@ -99,92 +99,20 @@
           </figcaption>
       </figure>
     </section>
-    <section id="galeria">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <h1>Nossa galeria</h1>
-              <div class="carousel-item active">
-                  <div class="container">
-                      <div class="row text-center">
-                          <div class="col-lg-3 col-sm-6">
-                            <img src="img/padel-galeria1_optimized.jpg" alt="foto-aula" class="img-galeria">
-                          </div>
-                          <div class="col-lg-3 col-sm-6">
-                            <img src="img/padel-galeria2_optimized.jpg" alt="foto-drill" class="img-galeria">
-                          </div>
-                          <div class="col-lg-3 col-sm-6">
-                            <img src="img/padel-galeria3_optimized.jpg" alt="foto-quadra" class="img-galeria hide-img">
-                          </div>
-                          <div class="col-lg-3 col-sm-6">
-                              <img src="img/padel-galeria4.jpg" alt="foto-quadra" class="img-galeria hide-img">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="container">
-                      <div class="row text-center">
-                        <div class="col-lg-3 col-sm-6">
-                          <img src="img/padel-galeria5.jpg" alt="foto-aula" class="img-galeria">
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                          <img src="img/padel-galeria6.jpg" alt="foto-drill" class="img-galeria">
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                          <img src="img/padel-galeria7.jpg" alt="foto-quadra" class="img-galeria hide-img">
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                          <img src="img/padel-galeria8.jpg" alt="foto-aula" class="img-galeria hide-img">
-                        </div>
-                      </div>
-                    </div>
-              </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon esq-gal" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon dir-gal" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-            </div>
-          </div>
-          <a href="galeria.html"><input type="button" value="Veja a galeria" id="btn-gal"></a>
-    </section>
-    <section id="contato-paralax">
-      <h1>Entre em Contato</h1>
-      <a href="contato.html"><input type="button" value="Ver mais" class="btn-laranja" id="btn-laranja-cont"></a>
-    </section>
-    <section id="area-2cores-mobile">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" id="area-azul">
-                  <h1>Faça uma aula teste</h1>
-                  <hr>
-                  <p>
-                      Faça sua inscrição e tenha uma primeira aula de graça
-                      para conhecer melhor o esporte, os professores e a localização.<br>
-                      Traga um amigo com você  e venha jogar padel.
-                  </p>
-          <a href="aula-teste.html "><input type="button" value="Saiba mais" class="btn-laranja" id="btn-laranja-torn"></a>
-              </div>
-              <div class="carousel-item" id="area-cinza">
-                  <h1>Inscrições de torneios</h1>
-                  <hr>
-                  <p>
-                      Se inscreva no nosso torneio, e acompanhe as chaves ao longo dele.<br>
-                      Faça o seu cadastro e o da sua dupla na sua categoria. Entraremos em contato o mais rápido possível
-                      para confirmar o cadastro.
-                  </p>
-                  <a href="torneio.html"><input type="button" value="Inscreva-se" class="btn-laranja"  id="btn-azul-aula"></a>
-              </div>
-            </div>
-        </div>
+    <section class="aula-teste-mobile">
+      <h1>Faça uma aula teste</h1>
+      <hr>
+      <p>
+          Faça sua inscrição e tenha uma primeira aula de graça
+          para conhecer melhor o esporte, os professores e a localização.<br>
+          Traga um amigo com você  e venha jogar padel.
+      </p>
+      <a href="aula-teste.html "><input type="button" value="Saiba mais" class="btn-laranja" id="btn-laranja-torn"></a>
     </section>
     <section id="area-2cores">
         <div class="container-fluid">
           <div class="row text-center">
-            <div class="col-lg-6 col-md-6 col-sm-12" id="area-azul">
+            <div class="col-lg-6 col-md-6 col-sm-12" id="area-cinza" class="aumento-area">
               <h1>Faça uma aula teste</h1>
               <hr>
               <p>
@@ -194,7 +122,7 @@
               </p>
             <a href="aula-teste.html "><input type="button" value="Saiba mais" class="btn-laranja" id="btn-laranja-torn"></a>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" id="area-cinza">
+            <div class="col-lg-6 col-md-6 col-sm-12" id="area-branca" class="aumento-area">
                 <h1>Inscrições de torneios</h1>
                 <hr>
                 <p>
@@ -207,9 +135,75 @@
           </div>
         </div>
     </section>
+    <section id="contato-paralax">
+      <h1>Entre em Contato</h1>
+      <a href="contato.html"><input type="button" value="Ver mais" class="btn-laranja" id="btn-laranja-cont"></a>
+    </section>
+    <section id="galeria">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <h1>Nossa galeria</h1>
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-3 col-sm-6">
+                          <img src="img/padel-galeria1_optimized.jpg" alt="foto-aula" class="img-galeria">
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                          <img src="img/padel-galeria2_optimized.jpg" alt="foto-drill" class="img-galeria">
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                          <img src="img/padel-galeria3_optimized.jpg" alt="foto-quadra" class="img-galeria hide-img">
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <img src="img/padel-galeria4.jpg" alt="foto-quadra" class="img-galeria hide-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row text-center">
+                      <div class="col-lg-3 col-sm-6">
+                        <img src="img/padel-galeria5.jpg" alt="foto-aula" class="img-galeria">
+                      </div>
+                      <div class="col-lg-3 col-sm-6">
+                        <img src="img/padel-galeria6.jpg" alt="foto-drill" class="img-galeria">
+                      </div>
+                      <div class="col-lg-3 col-sm-6">
+                        <img src="img/padel-galeria7.jpg" alt="foto-quadra" class="img-galeria hide-img">
+                      </div>
+                      <div class="col-lg-3 col-sm-6">
+                        <img src="img/padel-galeria8.jpg" alt="foto-aula" class="img-galeria hide-img">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon esq-gal" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon dir-gal" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        </div>
+        <a href="galeria.html"><input type="button" value="Veja a galeria" id="btn-gal"></a>
+    </section>
     <section id="clube-paralax">
       <h1>Conheça o Country Club de Niterói</h1>
       <a href="https://www.countryclubniteroi.com.br/"><input type="button" value="Ver mais" class="btn-laranja" id="btn-laranja-CCN"></a>
+    </section>
+    <section class="aula-teste-mobile">
+      <h1>Inscrições de torneios</h1>
+        <hr>
+        <p>
+          Se inscreva no nosso torneio, e acompanhe as chaves ao longo dele.<br>
+          Faça o seu cadastro e o da sua dupla na sua categoria. Entraremos em contato o mais rápido possível
+          para confirmar o cadastro.
+        </p>
+        <a href="torneio.html"><input type="button" value="Inscreva-se" class="btn-laranja"  id="btn-azul-aula"></a>
     </section>
     <footer>
       <a>Rua Chile,153 - Pendotiba,Niterói - RJ,24322-000</a>
