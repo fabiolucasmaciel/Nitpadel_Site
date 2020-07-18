@@ -14,5 +14,15 @@ body{
 #sobre-padel{
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: right;
+    color: white;
+}
+#curios-padel{
     background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+#curios-padel h1{
+    padding-bottom: 30px;
 }
