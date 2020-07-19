@@ -1,3 +1,9 @@
+a{
+    color: #f06244;
+}
+a:hover{
+    color: #f06244;
+}
 body{
     background-color: #1b1b1b;
 }
@@ -6,9 +12,42 @@ body{
     margin-bottom: 50px;
     color: white;
 }
+#txt-sobre-min{
+    display: none;
+}
+@media (max-width: 1067px) { 
+    #sobre-nos h1{
+        margin-left: 70px;
+    }
+    #sobre-nos p{
+        margin-left: 70px;
+    }
+    #sobre-nos a{
+        margin-left: 70px;
+    }
+}
+@media (max-width: 952px) { 
+    #txt-sobre-min{
+        display: block;
+    }
+    .txt-sobre-max{
+        display: none;
+    }
+}
+@media (max-width: 844px) {
+    #sobre-nos h1{
+        margin-left: 100px;
+    }
+    #sobre-nos p{
+        margin-left: 100px;
+    }
+    #sobre-nos a{
+        margin-left: 100px;
+    }
+}
 #img-sobre{
-    height: 300px;
-    width: 300px;
+    height: 275px;
+    width: 275px;
     margin: auto;
 }
 #sobre-padel{
@@ -16,6 +55,29 @@ body{
     padding-bottom: 50px;
     text-align: right;
     color: white;
+}
+@media (max-width: 844px) {
+    #sobre-padel{
+        display: none; 
+    }
+    #curios-padel{
+        display: none;
+    }
+}
+#sobre-padel-mobile{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#sobre-padel-mobile hr{
+    background-color: black;
+}
+@media (min-width: 844px) {
+    #sobre-padel-mobile{
+        display: none;
+    }
 }
 #curios-padel{
     background-color: white;
@@ -25,4 +87,57 @@ body{
 }
 #curios-padel h1{
     padding-bottom: 30px;
+}
+#curios-padel hr{
+    margin-top: -20px;
+    background-color: black;
+}
+#video{
+    background-color: white;
+    height: 355px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#video iframe{
+    position: absolute;
+    bottom: -20px;
+}
+#depoimentos{
+    margin-left: -80px;
+}
+@media (max-width: 1067px) { 
+    #video iframe{
+        position: absolute;
+        bottom: 5px;
+        margin-left: -50px;
+    }
+    #depoimentos{
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+}
+@media (max-width: 952px) { 
+    #video iframe{
+        height: 281.25px;
+        width: 500px;
+        bottom: 35px;
+    }
+    #depoimentos{
+        margin-top: -30px;
+    }
+}
+@media (max-width: 844px) {
+    #video iframe{
+        bottom: -280px;
+        left: 50%;
+        margin-left: -250px;
+    }
+    #depoimentos{
+        display: none;
+    }
+}
+@media (max-width: 760px) {
+    #video iframe{
+        display: block;
+    }
 }
