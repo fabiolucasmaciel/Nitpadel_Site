@@ -83,6 +83,7 @@ body{
     height: 275px;
     width: 275px;
     margin: auto;
+    border-radius: 800px;
 }
 #sobre-padel{
     padding-top: 50px;

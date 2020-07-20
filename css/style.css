@@ -262,6 +262,9 @@
     padding-left: 10px;
     width: 150px;
 }
+.btn-laranja:hover{
+    background-color: #9b3f2c;
+}
 /*area aula teste mobile*/
 .aula-teste-mobile{
     display: none;
@@ -274,6 +277,7 @@
         left: 0px;
         margin-top: 0px;
         padding: 10px;
+        padding-top: 0px;
         text-align: center;
     }
     .aula-teste-mobile h1{
@@ -348,7 +352,50 @@
     background-attachment: fixed;
     color: white;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 30px;
+}
+#contato-paralax a{
+    color: #f06244;
+}
+#contato-paralax a:hover{
+    text-decoration: none;
+}
+.area-cont{
+    background-color: #000000b6;
+    width: 200px;
+    margin: auto;
+    cursor: pointer;
+}
+.area-cont:hover{
+    background-color: #000000;
+}
+#contato-paralax h1{
+    padding-bottom: 30px;
+}
+#btn-laranja-cont {
+    margin-top: 30px;
+}
+@media (max-width: 767px) { 
+    #face-link{
+        display: none;
+    }
+    .col-sm-4 {
+        margin-left: 45px
+    }
+}
+@media (max-width: 577px) {
+    .col-sm-4 {
+        margin-left: 25px
+    }
+    #contato-paralax{
+        height: 350px;
+    }
+    #contato-paralax h1{
+        padding-bottom: 10px;
+    }
+    #btn-laranja-cont {
+        margin-top: 10px;
+    }
 }
 
 /*area do clube*/
@@ -361,11 +408,11 @@
     background-attachment: fixed;
     text-align: center;
     color: white;
-    padding-top: 110px;
+    padding-top: 80px;
 }
-@media (max-width: 575.98px) { 
-    #clube-paralax{
-        padding-top: 80px;
+@media (max-width: 760px) { 
+    #clube-paralax h3{
+        display: none;
     }
  }
 /*footer*/

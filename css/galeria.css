@@ -31,3 +31,29 @@ body{
 #galeria-estatica{
     padding-bottom: 40px;
 }
+#redes-sociais{
+    padding: 25px;
+    background-color: white;
+    height: 375px;
+    text-align: center;
+}
+#redes-sociais hr{
+    background-color: black;
+}
+@media (max-width: 770px) { 
+    #redes-sociais p{
+        display: none;
+    }
+}
+.perfil{
+    height: 150px;
+    width:150px;
+    border-radius: 80px;
+
+}
+a{
+    color: #f06244;
+}
+a:hover{
+    color: #f06244;
+}
