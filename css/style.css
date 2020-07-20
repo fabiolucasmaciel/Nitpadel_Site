@@ -84,10 +84,15 @@
     display: inline-block;
     position: relative;
 }
-#linha-banner{
+.linha-banner{
     background-color: #1b1b1b;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+@media (max-width: 575.98px) { 
+    .linha-banner{
+        display: none;
+    }
 }
 /* banner area- saiba mais*/
 #info-carouse {
