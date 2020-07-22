@@ -9,6 +9,7 @@ body{
 .img-galeria{
     height: 250px;
     width: 250px;
+    padding-top: 10px;
 }
 @media (max-width: 1100px) { 
     .img-galeria{
@@ -27,9 +28,15 @@ body{
         height: 230px;
         width: 230px;
     }
+    .hide-img{
+        display: none;
+    }
 }
-#galeria-estatica{
-    padding-bottom: 40px;
+#galeria{
+    padding-bottom: 0px;
+}
+#gal-group{
+    padding-bottom: 30px;
 }
 #redes-sociais{
     padding: 25px;
