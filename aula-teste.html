@@ -57,23 +57,34 @@
         </div><!-- navbar header with toggle icon -->
     </header>
     <section id="escolha">
-      <h1>Qual é a sua area de ineresse</h1>
+      <h1>Qual é a sua area de interesse</h1>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6">
-            <h3>Quer me cadastrar como aluno</h3>
-            <a href="#">Cadastre-se</a>
+            <input type="button" value="Quero me cadastrar como aluno">
           </div>
           <div class="col-sm-6">
-            <h3>Quero saber sobre a aula experimental</h3>
-            <a href="#">Saiba mais</a>
+            <input type="button" value="Quero saber sobre a aula experimental">
           </div>
         </div>
       </div>
     </section>
-    <section class="cadastro">
+    <section class="cadastro-alun">
       <h1>Efetue seu cadastro para caso já seja um aluno</h1>
       <p>Ao se cadastrar você facilitara a comunicação entre nós e o cadastro em torneios</p>
+      <hr>
+      <form action="#" method="post">
+        <label for="idnome"><strong>Nome completo: </strong><input type="text" name="nome" id="idnome" placeholder="Digite seu nome"></label><br>
+        <label for="idemail"><strong>E-mail: </strong><input type="email" name="email" id="idemail" placeholder="SeuEmail@email.com"></label><br>
+        <label for="idcel"><strong>Número do Celular: </strong><input type="tel" name="cel" id="idcel" placeholder="(xx) xxxxx-xxxx"></label><br>
+        <label for="idnasc"><strong>Data de nascimento: </strong><input type="date" name="nasc" id="idnasc"></label><br>
+        <span><strong>Sexo:</strong>
+        <label for="masc" class="pointer"><input type="radio" name="sexo" id="masc" checked>Masculino</label>
+        <label for="fem" class="pointer"><input type="radio" name="sexo" id="fem">Feminino</label>
+        </span><br>
+        <label><strong>Nivel no padel: </strong><input type="range" name="nivel" id="idnivel" min="0" max="5">[mensagem]</label><br>
+        <input type="submit" value="Cadastrar-se"><span>-[mensagem]</span>
+      </form>
     </section>
     <section id="contato-paralax">
         <h1>Entre em Contato</h1>
@@ -101,15 +112,22 @@
         </div>
         <a href="contato.html"><input type="button" value="Ver mais" class="btn-laranja" id="btn-laranja-cont"></a>
     </section>
-    <section class="cadastro">
+    <section class="aula-teste">
         <h1>Você tem duas opções sobre aula teste</h1>
         <div class="container-fluid">
             <div class="row">
               <div class="col-sm-6">
-                <h3>Preencher o formulario para nós entrarmos em contato</h3>
+                <h3>Preencha para nós entrarmos em contato</h3>
+                <hr>
+                <form action="#" method="post">
+                    <label for="idnome"><strong>Nome: </strong><input type="text" name="nome" id="idnome" placeholder="Digite seu nome"></label><br>
+                    <label for="idcel"><strong>Número do Celular: </strong><input type="tel" name="cel" id="idcel" placeholder="(xx) xxxxx-xxxx"></label><br>
+                    <input type="submit" value="Enviar"><span>-[mensagem]</span>
+                  </form>
               </div>
               <div class="col-sm-6">
                 <h3>Entrar diretamente em contato</h3>
+                <hr>
               </div>
             </div>
           </div>

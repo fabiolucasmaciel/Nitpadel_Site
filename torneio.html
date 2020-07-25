@@ -61,19 +61,41 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-6">
-              <h3>Quero me cadastrar no torneio</h3>
-              <a href="#">Cadastre-se</a>
+              <input type="button" value="Quero me cadastrar no torneio">
             </div>
             <div class="col-sm-6">
-              <h3>Quero ver a situção do torneio atual</h3>
-              <a href="#">Saiba mais</a>
+              <input type="button" value="Quero ver a situção do torneio atual">
             </div>
           </div>
         </div>
-      </section>
-      <section class="cadastro">
-        <h1>Acompanhe todas a chaves to torneio atual clicando no botão abixo</h1>
-        <input type="button" value="Chaves do torneio">
+    </section>
+    <section class="cadastro-torn">
+        <h1>Você tem duas opções de cadastro no torneio</h1>
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6">
+                <h3>Preencher o formulario para nós entrarmos em contato</h3>
+                <hr>
+                  <form action="#" method="post">
+                  <label for="idnome"><strong>Nome completo: </strong><input type="text" name="nome" id="idnome" placeholder="Digite seu nome"></label><br>
+                  <label for="idemail"><strong>E-mail: </strong><input type="email" name="email" id="idemail" placeholder="SeuEmail@email.com"></label><br>
+                  <label for="idcel"><strong>Número do Celular: </strong><input type="tel" name="cel" id="idcel" placeholder="(xx) xxxxx-xxxx"></label><br>
+                  <label for="idnasc"><strong>Data de nascimento: </strong><input type="date" name="nasc" id="idnasc"></label><br>
+                  <span><strong>Sexo:</strong>
+                  <label for="masc" class="pointer"><input type="radio" name="sexo" id="masc" checked>Masculino</label>
+                  <label for="fem" class="pointer"><input type="radio" name="sexo" id="fem">Feminino</label>
+                  </span><br>
+                  <label><strong>Nivel no padel: </strong><input type="range" name="nivel" id="idnivel" min="0" max="5">[mensagem]</label><br>
+                  <input type="submit" value="Cadastrar-se"><span>-[mensagem]</span>
+                </form>
+                <a><p id="muda-form">caso já seja aluno clique aqui</p></a>
+              </div>
+              <div class="col-sm-6">
+                <h3>Entrar diretamente em contato</h3>
+                <hr>
+              </div>
+            </div>
+          </div>
       </section>
       <section id="contato-paralax">
           <h1>Entre em Contato</h1>
@@ -101,19 +123,9 @@
           </div>
           <a href="contato.html"><input type="button" value="Ver mais" class="btn-laranja" id="btn-laranja-cont"></a>
       </section>
-      <section class="cadastro">
-          <h1>Você tem duas opções de cadastro no torneio</h1>
-          <div class="container-fluid">
-              <div class="row">
-                <div class="col-sm-6">
-                  <h3>Preencher o formulario para nós entrarmos em contato</h3>
-                  <a><p>caso já seja aluno clique aqui</p></a>
-                </div>
-                <div class="col-sm-6">
-                  <h3>Entrar diretamente em contato</h3>
-                </div>
-              </div>
-            </div>
+      <section class="chave-torneio">
+          <h1>Acompanhe todas a chaves to torneio atual<br> clicando no botão abaixo</h1>
+          <input type="button" value="Chaves do torneio">
         </section>
     <footer>
         <a>Rua Chile,153 - Pendotiba,Niterói - RJ,24322-000</a>

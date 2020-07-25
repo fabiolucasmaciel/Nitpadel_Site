@@ -1,14 +1,59 @@
 #escolha{
     background-color: #1b1b1b;
     color:  white;
-    height: 350px;
+    height: 200px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
 }
-.cadastro{
+#escolha h1{
+    margin-bottom: 20px;
+}
+.cadastro-alun{
     background-color: white;
     color:  black;
-    height: 350px;
+    height: 400px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
+}
+.cadastro-torn{
+    background-color: white;
+    color:  black;
+    height: 480px;
+    text-align: center;
+    padding-top: 20px;
+}
+hr{
+    background-color: black;
+    margin-bottom: 20px;
+}
+#muda-form{
+    margin-top: 280px;
+}
+#muda-form:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+form{
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    margin-left: -180px;
+
+}
+.pointer{
+    cursor: pointer;
+}
+.chave-torneio{
+    background-color: white;
+    color:  black;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}
+.aula-teste{
+    background-color: white;
+    color:  black;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
 }
