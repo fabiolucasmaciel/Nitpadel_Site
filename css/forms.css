@@ -89,3 +89,20 @@ form{
     border-color: gray;
     border-radius: 15px;
 }
+.icon{
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+}
+.icon-torn{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 200px;
+}
+.area-contato-icon{
+    text-align: left;
+    margin-left: 260px;
+}
