@@ -61,30 +61,42 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6">
-            <input type="button" value="Quero me cadastrar como aluno">
+            <input type="button" value="Quero me cadastrar como aluno" class="btn-laranja-escolha">
           </div>
           <div class="col-sm-6">
-            <input type="button" value="Quero saber sobre a aula experimental">
+            <input type="button" value="Quero saber sobre a aula experimental" class="btn-laranja-escolha">
           </div>
         </div>
       </div>
     </section>
     <section class="cadastro-alun">
-      <h1>Efetue seu cadastro para caso já seja um aluno</h1>
+      <h1>Efetue seu cadastro caso já seja um aluno</h1>
       <p>Ao se cadastrar você facilitara a comunicação entre nós e o cadastro em torneios</p>
       <hr>
-      <form action="#" method="post">
-        <label for="idnome"><strong>Nome completo: </strong><input type="text" name="nome" id="idnome" placeholder="Digite seu nome"></label><br>
-        <label for="idemail"><strong>E-mail: </strong><input type="email" name="email" id="idemail" placeholder="SeuEmail@email.com"></label><br>
-        <label for="idcel"><strong>Número do Celular: </strong><input type="tel" name="cel" id="idcel" placeholder="(xx) xxxxx-xxxx"></label><br>
-        <label for="idnasc"><strong>Data de nascimento: </strong><input type="date" name="nasc" id="idnasc"></label><br>
-        <span><strong>Sexo:</strong>
-        <label for="masc" class="pointer"><input type="radio" name="sexo" id="masc" checked>Masculino</label>
-        <label for="fem" class="pointer"><input type="radio" name="sexo" id="fem">Feminino</label>
-        </span><br>
-        <label><strong>Nivel no padel: </strong><input type="range" name="nivel" id="idnivel" min="0" max="5">[mensagem]</label><br>
-        <input type="submit" value="Cadastrar-se"><span>-[mensagem]</span>
-      </form>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-3">
+            <img src="img/padel-galeria5_optimized.jpg" alt="quadra" id="img-sobre">
+          </div>
+          <div class="col-1"></div>
+          <div class="col-4">
+            <form action="#" method="post" id="form-aluno">
+              <label for="idnome"><strong>Nome completo: </strong><input type="text" name="nome" id="idnome" placeholder="Digite seu nome" class="input-round"></label><br>
+              <label for="idemail"><strong>E-mail: </strong><input type="email" name="email" id="idemail" placeholder="SeuEmail@email.com" class="input-round"></label><br>
+              <label for="idcel"><strong>Número do Celular: </strong><input type="tel" name="cel" id="idcel" placeholder="(xx) xxxxx-xxxx" class="input-round"></label><br>
+              <label for="idnasc"><strong>Data de nascimento: </strong><input type="date" name="nasc" id="idnasc" class="input-round"></label><br>
+              <span><strong>Sexo:</strong>
+              <label for="masc" class="pointer"><input type="radio" name="sexo" id="masc" checked>Masculino</label>
+              <label for="fem" class="pointer"><input type="radio" name="sexo" id="fem">Feminino</label>
+              </span><br>
+              <label><strong>Nivel no padel: </strong><input type="range" name="nivel" id="idnivel" min="0" max="5">[mensagem]</label><br>
+              <input type="submit" value="Cadastrar-se" class="btn-laranja-escolha"><span>-[mensagem]</span>
+            </form>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
     </section>
     <section id="contato-paralax">
         <h1>Entre em Contato</h1>
@@ -114,20 +126,19 @@
     </section>
     <section class="aula-teste">
         <h1>Você tem duas opções sobre aula teste</h1>
+        <hr>
         <div class="container-fluid">
             <div class="row">
               <div class="col-sm-6">
                 <h3>Preencha para nós entrarmos em contato</h3>
-                <hr>
                 <form action="#" method="post">
-                    <label for="idnome"><strong>Nome: </strong><input type="text" name="nome" id="idnome" placeholder="Digite seu nome"></label><br>
-                    <label for="idcel"><strong>Número do Celular: </strong><input type="tel" name="cel" id="idcel" placeholder="(xx) xxxxx-xxxx"></label><br>
-                    <input type="submit" value="Enviar"><span>-[mensagem]</span>
+                    <label for="idnome"><strong>Nome: </strong><input type="text" name="nome" id="idnome" placeholder="Digite seu nome" class="input-round"></label><br>
+                    <label for="idcel"><strong>Número do Celular: </strong><input type="tel" name="cel" id="idcel" placeholder="(xx) xxxxx-xxxx" class="input-round"></label><br>
+                    <input type="submit" value="Enviar" class="btn-laranja-escolha"><span>-[mensagem]</span>
                   </form>
               </div>
               <div class="col-sm-6">
                 <h3>Entrar diretamente em contato</h3>
-                <hr>
               </div>
             </div>
           </div>
