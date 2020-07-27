@@ -81,7 +81,7 @@ form{
     padding-right: 10px;
     padding-left: 10px;
 }
-.btn-laranja:hover{
+.btn-laranja-escolha:hover{
     background-color: #9b3f2c;
 }
 .input-round{
@@ -95,14 +95,17 @@ form{
     margin-right: 20px;
     height: 60px;
     width: 60px;
+    cursor: pointer;
 }
 .icon-torn{
     height: 60px;
     width: 60px;
     position: absolute;
     left: 200px;
+    cursor: pointer;
 }
 .area-contato-icon{
     text-align: left;
     margin-left: 260px;
+    cursor: pointer;
 }
