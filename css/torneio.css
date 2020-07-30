@@ -1,0 +1,93 @@
+a{
+    color: black
+}
+a:hover{
+    color: black;
+}
+h3{
+    margin-bottom: 30px;
+}
+.btn-laranja-escolha{
+    border: none;
+    border-radius: 25px;
+    background-color: #f06244;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.btn-laranja-escolha:hover{
+    background-color: #9b3f2c;
+}
+.input-round{
+    border-width: 1px;
+    border-color: #cecdd2;
+    border-radius: 5px;
+}
+hr{
+    background-color: black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.pointer{
+    cursor: pointer;
+}
+#escolha{
+    background-color: #1b1b1b;
+    color:  white;
+    height: 200px;
+    text-align: center;
+    padding-top: 35px;
+}
+#escolha h1{
+    margin-bottom: 20px;
+}
+#cadastro-torn{
+    background-color: white;
+    color:  black;
+    height: 450px;
+    text-align: center;
+    padding-top: 0px;
+}
+#muda-form{
+    margin-top: 290px;
+}
+#muda-form:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.icon-torn{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 200px;
+    cursor: pointer;
+}
+#chave-torneio{
+    background-color: white;
+    color:  black;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}
+
+form{
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    margin-left: -180px;
+}
+.icon{
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+.area-contato-icon{
+    text-align: left;
+    margin-left: 260px;
+    cursor: pointer;
+}

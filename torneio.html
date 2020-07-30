@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/torneio.css">
     <link rel="shortcut icon" href="img/nitpadel_favicon_corte_pret.png" type="image/x-icon">
     <title>Nitpadel</title>
 </head>
@@ -69,7 +69,7 @@
           </div>
         </div>
     </section>
-    <section class="cadastro-torn" id="cadastro-torn">
+    <section id="cadastro-torn">
         <h1 style="padding-top:10px;">Você tem duas opções de cadastro no torneio</h1>
         <hr>
         <div class="container-fluid">
@@ -85,7 +85,14 @@
                   <label for="masc" class="pointer"><input type="radio" name="sexo" id="masc" checked>Masculino</label>
                   <label for="fem" class="pointer"><input type="radio" name="sexo" id="fem">Feminino</label>
                   </span><br>
-                  <label><strong>Nivel no padel: </strong><input type="range" name="nivel" id="idnivel" min="0" max="5">[mensagem]</label><br>
+                  <label for="idsitua"><strong>Situação: </strong><select name="situa" id="idsitua">
+                    <option value="nunca joguei">Nunca joguei</option>
+                    <option value="contato">Tive contato</option>
+                    <option value="iniciante" selected>Iniciante</option>
+                    <option value="Intermediario">Intermediario</option>
+                    <option value="avançado">Avançado</option>
+                    <option value="pro">Profissional</option>
+                  </select></label><br>
                   <input type="submit" value="Cadastrar-se" class="btn-laranja-escolha"><span>-[mensagem]</span>
                 </form>
                 <a><p id="muda-form">caso já seja aluno clique aqui</p></a>
@@ -138,7 +145,7 @@
           </div>
           <a href="contato.html"><input type="button" value="Ver mais" class="btn-laranja" id="btn-laranja-cont"></a>
       </section>
-      <section class="chave-torneio" id="chave-torneio">
+      <section id="chave-torneio">
           <h1>Acompanhe todas a chaves to torneio atual<br> clicando no botão abaixo</h1>
           <input type="button" value="Chaves do torneio" class="btn-laranja-escolha">
         </section>

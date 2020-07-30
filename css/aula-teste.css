@@ -1,0 +1,82 @@
+.btn-laranja-escolha{
+    border: none;
+    border-radius: 25px;
+    background-color: #f06244;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.btn-laranja-escolha:hover{
+    background-color: #9b3f2c;
+}
+hr{
+    background-color: black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#escolha{
+    background-color: #1b1b1b;
+    color:  white;
+    height: 200px;
+    text-align: center;
+    padding-top: 35px;
+}
+#escolha h1{
+    margin-bottom: 20px;
+}
+.input-round{
+    border-width: 1px;
+    border-color: #cecdd2;
+    border-radius: 5px;
+}
+.pointer{
+    cursor: pointer;
+}
+#cadastro-alun{
+    background-color: white;
+    color:  black;
+    height: 450px;
+    text-align: center;
+    padding-top: 10px;
+}
+#img-sobre{
+    height: 275px;
+    width: 275px;
+    margin: auto;
+    border-radius: 200px;
+    margin-top: 15px;
+}
+#form-aluno{
+    position: absolute;
+    text-align: left;
+    margin-top: 25px;
+}
+.aula-teste{
+    background-color: white;
+    color:  black;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+form{
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    margin-left: -180px;
+}
+.icon{
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+.area-contato-icon{
+    text-align: left;
+    margin-left: 260px;
+    cursor: pointer;
+}
