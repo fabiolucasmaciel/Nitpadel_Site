@@ -27,9 +27,13 @@ hr{
     margin-bottom: 20px;
 }
 .input-round{
-    border-width: 1px;
-    border-color: #cecdd2;
+    border: 1px solid #ccd0d5;
     border-radius: 5px;
+    font-size: 18px;
+    padding: 6px 8px;
+    width: 350px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .pointer{
     cursor: pointer;
@@ -37,28 +41,58 @@ hr{
 #cadastro-alun{
     background-color: white;
     color:  black;
-    height: 450px;
+    height: 480px;
     text-align: center;
     padding-top: 10px;
 }
+.float-desc{
+    color: #979797;
+}
 #img-sobre{
-    height: 275px;
-    width: 275px;
+    height: 300px;
+    width: 300px;
     margin: auto;
     border-radius: 200px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 #form-aluno{
     position: absolute;
     text-align: left;
-    margin-top: 25px;
+    margin-top: 20px;
+}
+.nome{
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 6px 8px;
+    width: 172px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .aula-teste{
     background-color: white;
     color:  black;
-    height: 300px;
+    height: 470px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
+}
+.aula-teste h1{
+    padding-bottom: 10px;
+}
+a{
+    color: black
+}
+a:hover{
+    color: black;
+}
+h3{
+    margin-bottom: 30px;
+}.icon-torn{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 200px;
+    cursor: pointer;
 }
 
 form{
@@ -66,14 +100,6 @@ form{
     text-align: left;
     left: 50%;
     margin-left: -180px;
-}
-.icon{
-    margin-top: -5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 60px;
-    width: 60px;
-    cursor: pointer;
 }
 .area-contato-icon{
     text-align: left;
