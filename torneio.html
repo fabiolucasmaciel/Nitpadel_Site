@@ -70,35 +70,37 @@
         </div>
     </section>
     <section id="cadastro-torn">
-        <h1 style="padding-top:10px;">Você tem duas opções de cadastro no torneio</h1>
+        <h1>Você tem duas opções de cadastro no torneio</h1>
         <hr>
         <div class="container-fluid">
             <div class="row">
               <div class="col-sm-6">
                 <h3>Preencha para nós entrarmos em contato</h3>
-                  <form action="#" method="post">
-                  <label for="idnome"><strong>Nome completo: </strong><input type="text" name="nome" id="idnome" placeholder="Digite seu nome" class="input-round"></label><br>
-                  <label for="idemail"><strong>E-mail: </strong><input type="email" name="email" id="idemail" placeholder="SeuEmail@email.com" class="input-round"></label><br>
-                  <label for="idcel"><strong>Número do Celular: </strong><input type="tel" name="cel" id="idcel" placeholder="(xx) xxxxx-xxxx" class="input-round"></label><br>
-                  <label for="idnasc"><strong>Data de nascimento: </strong><input type="date" name="nasc" id="idnasc" class="input-round"></label><br>
-                  <span><strong>Sexo:</strong>
-                  <label for="masc" class="pointer"><input type="radio" name="sexo" id="masc" checked>Masculino</label>
-                  <label for="fem" class="pointer"><input type="radio" name="sexo" id="fem">Feminino</label>
-                  </span><br>
-                  <label for="idsitua"><strong>Situação: </strong><select name="situa" id="idsitua">
-                    <option value="nunca joguei">Nunca joguei</option>
-                    <option value="contato">Tive contato</option>
-                    <option value="iniciante" selected>Iniciante</option>
-                    <option value="Intermediario">Intermediario</option>
-                    <option value="avançado">Avançado</option>
-                    <option value="pro">Profissional</option>
-                  </select></label><br>
-                  <input type="submit" value="Cadastrar-se" class="btn-laranja-escolha"><span>-[mensagem]</span>
-                </form>
-                <a><p id="muda-form">caso já seja aluno clique aqui</p></a>
+                <form action="#" method="post" id="form-torneio">
+                    <input type="text" name="nome" class="nome" placeholder="Nome">
+                    <input type="text" name="sobrenome" class="nome" placeholder="Sobrenome"><br>
+                    <input type="email" name="email" placeholder="E-mail" class="input-round"><br>
+                    <input type="tel" name="cel" placeholder="Celular" class="input-round"><br>
+                    <label for="idcate" class="float-desc"><strong>Categoria no tornio: </strong></label><br>
+                    <select name="situa" id="idcate">
+                      <option value="indefinido">Não sei</option>
+                      <option value="contato">Veterano</option>
+                      <option value="iniciante">Infantil</option>
+                      <option value="Intermediario">C</option>
+                      <option value="avançado">B</option>
+                      <option value="pro">A</option>
+                    </select>
+                    <br>
+                    <span class="float-desc"><strong>Gênero:</strong></span><br>
+                    <label for="masc" class="pointer" style="font-size: 18px;"><input type="radio" name="sexo" id="masc" checked> Masculino</label>
+                    <label for="fem" class="pointer" style="font-size: 18px;"><input type="radio" name="sexo" id="fem"> Feminino</label>
+                    <br>
+                    <input type="submit" value="Cadastrar-se" class="btn-laranja"><span>-[mensagem]</span>
+                  </form>
+                <a><p id="muda-form">Caso já seja aluno clique aqui</p></a>
               </div>
               <div class="col-sm-6">
-                <h3>Entrar diretamente em contato</h3>
+                <h3 id="h3-icons">Entrar diretamente em contato</h3>
                 <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521967014687"><div class="area-contato-icon">
                   <h4><img src="img/whatsapp_icon.png" alt="whatsapp_icon" class="icon-torn">Whatsapp</h4><br>
                   <p style="margin-top:-30px;">(21)96701-4687</p>

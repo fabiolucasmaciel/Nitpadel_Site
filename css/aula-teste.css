@@ -69,14 +69,14 @@ hr{
     margin-top: 2px;
     margin-bottom: 2px;
 }
-.aula-teste{
+#aula-teste{
     background-color: white;
     color:  black;
     height: 470px;
     text-align: center;
     padding-top: 15px;
 }
-.aula-teste h1{
+#aula-teste h1{
     padding-bottom: 10px;
 }
 a{
