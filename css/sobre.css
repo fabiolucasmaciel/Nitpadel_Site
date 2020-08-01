@@ -161,14 +161,26 @@ body{
         margin-top: -30px;
     }
 }
+@media (max-width: 952px) { 
+    #video iframe{
+        bottom: 55px;
+    }
+}
 @media (max-width: 844px) {
     #video iframe{
         bottom: -185px;
         position: relative;
-        left: 43%;
+        left: 40%;
     }
     #depoimentos{
         display: none;
+    }
+}
+@media (max-width: 800px) {
+    #video iframe{
+        bottom: -185px;
+        position: relative;
+        left: 34%;
     }
 }
 @media (max-width: 760px) {

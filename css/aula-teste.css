@@ -13,7 +13,7 @@
 }
 hr{
     background-color: black;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     margin-top: 15px;
 }
 #escolha{
@@ -53,12 +53,12 @@ hr{
     width: 300px;
     margin: auto;
     border-radius: 200px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 #form-aluno{
     position: absolute;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .nome{
     border: 1px solid #ccd0d5;
@@ -102,6 +102,7 @@ form{
     margin-left: -180px;
 }
 .area-contato-icon{
+    margin-top: -7px;
     text-align: left;
     margin-left: 260px;
     cursor: pointer;
