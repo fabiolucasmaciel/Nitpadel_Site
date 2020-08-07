@@ -69,6 +69,11 @@ hr{
     text-align: center;
     padding-top: 0px;
 }
+@media (max-width: 900px) { 
+    .btn-escolha{
+        margin-left: -100px;
+    }
+}
 #cadastro-torn h1{
     padding-top:15px;
     padding-bottom: 5px;
